@@ -10,10 +10,10 @@ function Searchbox() {
   };
 
   return (
-    <section className="searchBoxContainer">
+    <section className="searchBarContainer">
       <input
         type="text"
-        className="searchbox"
+        className="searchbar"
         placeholder="search by company name..."
         onChange={(e) => handleChange(e)}
       />
