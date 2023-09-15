@@ -14,7 +14,7 @@ function Searchbox() {
       <input
         type="text"
         className="searchbar"
-        placeholder="search by company name..."
+        placeholder="search by country name..."
         onChange={(e) => handleChange(e)}
       />
     </section>
