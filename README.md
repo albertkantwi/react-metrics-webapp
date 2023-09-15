@@ -63,10 +63,6 @@ The key features of this project include the following.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://benevolent-crostata-5c4bea.netlify.app/)
-- [Video Presentation](https://www.loom.com/share/5aa00e1311db43879505ce828a033304) 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
