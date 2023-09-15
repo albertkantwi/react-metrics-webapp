@@ -62,6 +62,9 @@ The key features of this project include the following.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo](https://countries-in-the-world-qfqy.onrender.com/)
+- [Video Presentation](https://www.loom.com/share/Countries-of-the-World-20814cd6810344039556ca8937b6deb7?sid=d20a2b8d-27ab-47cd-aea6-8b5a2b7f5288) 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
