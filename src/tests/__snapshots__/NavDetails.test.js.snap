@@ -1,19 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Check countries component rendered correctly 1`] = `
+exports[`Check if the NavDetail component is rendered correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        Loading ...
-      </div>
+      <nav
+        class="nav_container"
+      >
+        <a
+          class="block_display"
+          href="/"
+        >
+          <img
+            alt="Angle Left Arrow"
+            class="arrow_logo"
+            src="angle-left-solid.svg"
+          />
+        </a>
+        <span
+          class="navtext_center"
+        >
+          Details of
+           
+           
+           
+        </span>
+        <div
+          class="navbox"
+        >
+          <button
+            type="button"
+          >
+            <img
+              alt="Microphone"
+              src="microphone-solid.svg"
+            />
+          </button>
+          <button
+            type="button"
+          >
+            <img
+              alt="Gear"
+              src="gear-solid.svg"
+            />
+          </button>
+        </div>
+      </nav>
     </div>
   </body>,
   "container": <div>
-    <div>
-      Loading ...
-    </div>
+    <nav
+      class="nav_container"
+    >
+      <a
+        class="block_display"
+        href="/"
+      >
+        <img
+          alt="Angle Left Arrow"
+          class="arrow_logo"
+          src="angle-left-solid.svg"
+        />
+      </a>
+      <span
+        class="navtext_center"
+      >
+        Details of
+         
+         
+         
+      </span>
+      <div
+        class="navbox"
+      >
+        <button
+          type="button"
+        >
+          <img
+            alt="Microphone"
+            src="microphone-solid.svg"
+          />
+        </button>
+        <button
+          type="button"
+        >
+          <img
+            alt="Gear"
+            src="gear-solid.svg"
+          />
+        </button>
+      </div>
+    </nav>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

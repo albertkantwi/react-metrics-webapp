@@ -3,16 +3,16 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
-import Search from '../components/Searchbar';
+import Home from '../components/Home';
 
-test('Check if the Search component is rendered correctly', () => {
+test('Check if the Home component is rendered correctly', () => {
   const tree = render(
-    <Provider store={store}>
-      <BrowserRouter>
-        <Search />
-      </BrowserRouter>
-    </Provider>,
+    <BrowserRouter>
+      <Provider store={store}>
+        <Home />
+      </Provider>
+      ,
+    </BrowserRouter>,
   );
-
   expect(tree).toMatchSnapshot();
 });

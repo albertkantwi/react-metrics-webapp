@@ -1,17 +1,18 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Countries from '../components/Country';
+import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
+import NavDetail from '../components/NavDetails';
 
-test('Check countries component rendered correctly', () => {
+test('Check if the NavDetail component is rendered correctly', () => {
   const tree = render(
     <Provider store={store}>
       <BrowserRouter>
-        <Countries />
+        <NavDetail />
       </BrowserRouter>
     </Provider>,
   );
+
   expect(tree).toMatchSnapshot();
 });

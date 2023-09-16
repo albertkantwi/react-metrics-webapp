@@ -1,32 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Check CountryDetail component rendered correctly 1`] = `
+exports[`Check if the Footer component is rendered correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="countryDetailsContainer"
-      >
-        <h1>
-          Country Details
-        </h1>
-        <p>
-          Loading...
-        </p>
+      <div>
+        <h3
+          class="footer"
+        >
+          A Microverse Capstone Project by Albert Antwi
+        </h3>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="countryDetailsContainer"
-    >
-      <h1>
-        Country Details
-      </h1>
-      <p>
-        Loading...
-      </p>
+    <div>
+      <h3
+        class="footer"
+      >
+        A Microverse Capstone Project by Albert Antwi
+      </h3>
     </div>
   </div>,
   "debug": [Function],

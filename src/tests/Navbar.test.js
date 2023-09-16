@@ -2,16 +2,17 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Navbar from '../components/Navbar';
 import store from '../redux/store';
+import Nav from '../components/Navbar';
 
-test('Check navbar component rendered correctly', () => {
+test('Check if Nav component is rendered correctly', () => {
   const tree = render(
     <Provider store={store}>
       <BrowserRouter>
-        <Navbar />
+        <Nav />
       </BrowserRouter>
     </Provider>,
   );
+
   expect(tree).toMatchSnapshot();
 });
