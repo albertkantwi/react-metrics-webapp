@@ -1,15 +1,15 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
-import Nav from '../components/Navbar';
+import Population from '../components/Population';
 
-test('Check if Nav component is rendered correctly', () => {
+test('Check if the Population component is rendered correctly', () => {
   const tree = render(
     <Provider store={store}>
       <BrowserRouter>
-        <Nav />
+        <Population />
       </BrowserRouter>
     </Provider>,
   );

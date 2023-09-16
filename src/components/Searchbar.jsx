@@ -1,24 +1,25 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { setSearchTerm } from '../redux/searchbox/searchboxSlice'; // Import setSearchTerm from filtersSlice
+import { search } from '../redux/home/homeSlice';
+import searchLogo from '../assets/icons/magnifying-glass-solid.svg';
+import './Searchbar.css';
 
-function Searchbox() {
+const Search = () => {
   const dispatch = useDispatch();
-
-  const handleChange = (e) => {
-    dispatch(setSearchTerm(e.target.value));
+  const onSearchHandler = (e) => {
+    dispatch(search(e.target.value));
   };
-
   return (
-    <section className="searchBarContainer">
+    <div className="search_container">
+      <img className="search_icon" src={searchLogo} alt="" />
       <input
         type="text"
-        className="searchbar"
-        placeholder="search by country name..."
-        onChange={(e) => handleChange(e)}
+        placeholder="Search country"
+        className="search_input"
+        onChange={onSearchHandler}
       />
-    </section>
+    </div>
   );
-}
+};
 
-export default Searchbox;
+export default Search;

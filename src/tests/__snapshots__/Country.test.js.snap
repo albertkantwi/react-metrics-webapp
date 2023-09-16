@@ -1,30 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Check if Nav component is rendered correctly 1`] = `
+exports[`Check if the CountryDetail component is rendered correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="country_detail_body"
+      >
+        <nav
+          class="nav_container"
+        >
+          <a
+            class="block_display"
+            href="/"
+          >
+            <img
+              alt="Angle Left Arrow"
+              class="arrow_logo"
+              src="angle-left-solid.svg"
+            />
+          </a>
+          <span
+            class="navtext_center"
+          >
+            Details of
+             
+             
+             
+          </span>
+          <div
+            class="navbox"
+          >
+            <button
+              type="button"
+            >
+              <img
+                alt="Microphone"
+                src="microphone-solid.svg"
+              />
+            </button>
+            <button
+              type="button"
+            >
+              <img
+                alt="Gear"
+                src="gear-solid.svg"
+              />
+            </button>
+          </div>
+        </nav>
+        <h1
+          class="error_back"
+        >
+          Error, please go back! 
+        </h1>
+        <div>
+          <h3
+            class="footer"
+          >
+            A Microverse Capstone Project by Albert Antwi
+          </h3>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="country_detail_body"
+    >
       <nav
         class="nav_container"
       >
-        <div
-          class="logo_box"
+        <a
+          class="block_display"
+          href="/"
         >
-          <div
-            class="logo_text"
-          >
-            <img
-              alt="Logo"
-              class="logo_img"
-              src="logo.png"
-            />
-          </div>
-        </div>
+          <img
+            alt="Angle Left Arrow"
+            class="arrow_logo"
+            src="angle-left-solid.svg"
+          />
+        </a>
         <span
           class="navtext_center"
         >
-          Countries of World
+          Details of
+           
+           
+           
         </span>
         <div
           class="navbox"
@@ -47,51 +111,19 @@ Object {
           </button>
         </div>
       </nav>
+      <h1
+        class="error_back"
+      >
+        Error, please go back! 
+      </h1>
+      <div>
+        <h3
+          class="footer"
+        >
+          A Microverse Capstone Project by Albert Antwi
+        </h3>
+      </div>
     </div>
-  </body>,
-  "container": <div>
-    <nav
-      class="nav_container"
-    >
-      <div
-        class="logo_box"
-      >
-        <div
-          class="logo_text"
-        >
-          <img
-            alt="Logo"
-            class="logo_img"
-            src="logo.png"
-          />
-        </div>
-      </div>
-      <span
-        class="navtext_center"
-      >
-        Countries of World
-      </span>
-      <div
-        class="navbox"
-      >
-        <button
-          type="button"
-        >
-          <img
-            alt="Microphone"
-            src="microphone-solid.svg"
-          />
-        </button>
-        <button
-          type="button"
-        >
-          <img
-            alt="Gear"
-            src="gear-solid.svg"
-          />
-        </button>
-      </div>
-    </nav>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,18 +1,30 @@
-function Navbar() {
-  const date = new Date();
-  return (
-    <nav>
-      <h3>
-        ©
-        {date.getFullYear()}
-      </h3>
-      <h1>Countries Of The World</h1>
-      <div className="icons">
-        <img src="https://img.icons8.com/ios/30/microphone.png" alt="microphone icon" />
-        <img src="https://img.icons8.com/30/settings--v1.png" alt="settings icon" />
+import React from 'react';
+import micro from '../assets/icons/microphone-solid.svg';
+import gear from '../assets/icons/gear-solid.svg';
+import logo from '../assets/images/logo.png';
+import './Navbar.css';
+
+const Nav = () => (
+  <>
+    <nav className="nav_container">
+      <div className="logo_box">
+        <div className="logo_text">
+          <img className="logo_img" src={logo} alt="Logo" />
+        </div>
+      </div>
+
+      <span className="navtext_center">Countries of World</span>
+
+      <div className="navbox">
+        <button type="button">
+          <img src={micro} alt="Microphone" />
+        </button>
+        <button type="button">
+          <img src={gear} alt="Gear" />
+        </button>
       </div>
     </nav>
-  );
-}
+  </>
+);
 
-export default Navbar;
+export default Nav;

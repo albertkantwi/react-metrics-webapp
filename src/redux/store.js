@@ -1,12 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import countriesReducer from './country/countrySlice';
-import filtersReducer from './searchbox/searchboxSlice';
+import logger from 'redux-logger';
+import homeReducer from './home/homeSlice';
+import countryReducer from './country/countrySlice';
 
 const store = configureStore({
   reducer: {
-    countries: countriesReducer,
-    filters: filtersReducer,
+    country: homeReducer,
+    countryDetail: countryReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 export default store;

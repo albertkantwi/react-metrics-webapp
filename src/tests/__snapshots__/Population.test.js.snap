@@ -1,40 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Check if the Search component is rendered correctly 1`] = `
+exports[`Check if the Population component is rendered correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="search_container"
+        class="population"
       >
-        <img
-          alt=""
-          class="search_icon"
-          src="magnifying-glass-solid.svg"
+        <div
+          class="population_img_box"
+        >
+          <img
+            alt="World Map"
+            class="world_img"
+            src="https://svgsilh.com/svg/306338.svg"
+          />
+        </div>
+        <div
+          class="center_line"
         />
-        <input
-          class="search_input"
-          placeholder="Search country"
-          type="text"
-        />
+        <div
+          class="population_text"
+        >
+          <h1>
+            Population
+          </h1>
+          <p>
+            Loading, please wait!
+             
+          </p>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="search_container"
+      class="population"
     >
-      <img
-        alt=""
-        class="search_icon"
-        src="magnifying-glass-solid.svg"
+      <div
+        class="population_img_box"
+      >
+        <img
+          alt="World Map"
+          class="world_img"
+          src="https://svgsilh.com/svg/306338.svg"
+        />
+      </div>
+      <div
+        class="center_line"
       />
-      <input
-        class="search_input"
-        placeholder="Search country"
-        type="text"
-      />
+      <div
+        class="population_text"
+      >
+        <h1>
+          Population
+        </h1>
+        <p>
+          Loading, please wait!
+           
+        </p>
+      </div>
     </div>
   </div>,
   "debug": [Function],
