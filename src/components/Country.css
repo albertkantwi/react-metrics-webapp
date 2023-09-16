@@ -1,79 +1,78 @@
 .country_detail_body {
-    background-color: #5689cf;
-  }
-  
-  .country_detail_header_box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 20rem;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #4177c2;
-    padding: 0 1.5rem;
-  }
-  
-  .country_detail_header_box_map {
-    width: 100%;
-  }
-  
-  .country_detail_header_box_map img {
-    width: 80%;
-  }
-  
-  .country_detail_header_box_text {
-    text-align: right;
-    font-size: 2rem;
-    color: #fff;
-  }
-  
-  .country_overview_headline {
-    color: #fff;
-    font-size: 1.75rem;
-    background-color: #800080;
-    padding: 1rem 1.6rem;
-  }
-  
-  .country_detail_overview_box {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .country_detail_overview_box_text {
-    display: grid;
-    grid-template-columns: 1fr 10rem 2rem;
-    align-items: center;
-    column-gap: 3.5rem;
-    background-color: #1cbd29;
-    padding: 2.5rem 1rem 2.5rem 0.5rem;
-  }
-  
-  .country_detail_overview_box_text .country_flag {
-    width: 5rem;
-  }
-  
-  .country_detail_overview_box_text .country_coat_of_arms {
-    width: 5rem;
-  }
-  
-  .country_detail_overview_box_text h3,
-  p {
-    font-size: 1.75rem;
-    color: #fff;
-  }
-  
-  .country_detail_overview_box_text button {
-    background-color: transparent;
-    cursor: pointer;
-    border: 0;
-  }
-  
-  .color_black {
-    background-color: #000;
-  }
-  
-  .error_back {
-    color: #fff;
-    text-align: center;
-    padding: 10rem 0 10rem 0;
-  }
-  
+  background-color: #5689cf;
+}
+
+.country_detail_header_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4177c2;
+  padding: 0 1.5rem;
+}
+
+.country_detail_header_box_map {
+  width: 100%;
+}
+
+.country_detail_header_box_map img {
+  width: 80%;
+}
+
+.country_detail_header_box_text {
+  text-align: right;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.country_overview_headline {
+  color: #fff;
+  font-size: 1.75rem;
+  background-color: #800080;
+  padding: 1rem 1.6rem;
+}
+
+.country_detail_overview_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.country_detail_overview_box_text {
+  display: grid;
+  grid-template-columns: 1fr 10rem 2rem;
+  align-items: center;
+  column-gap: 3.5rem;
+  background-color: #1cbd29;
+  padding: 2.5rem 1rem 2.5rem 0.5rem;
+}
+
+.country_detail_overview_box_text .country_flag {
+  width: 5rem;
+}
+
+.country_detail_overview_box_text .country_coat_of_arms {
+  width: 5rem;
+}
+
+.country_detail_overview_box_text h3,
+p {
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.country_detail_overview_box_text button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+.color_black {
+  background-color: #000;
+}
+
+.error_back {
+  color: #fff;
+  text-align: center;
+  padding: 10rem 0 10rem 0;
+}
