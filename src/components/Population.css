@@ -1,0 +1,42 @@
+.population {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  height: 20rem;
+  background-color: #4177c2;
+}
+
+.center_line {
+  border-left: 2px solid #1f2937;
+}
+
+.population_img_box {
+  width: 100%;
+  position: relative;
+}
+
+.population_img_box .world_img {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  fill: #52525b;
+  margin-top: 2rem;
+}
+
+.population_text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin: 5.4rem 2rem 0 3.5rem;
+}
+
+.population_text h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.population_text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
