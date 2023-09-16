@@ -1,0 +1,71 @@
+.home_container {
+  height: 100vh;
+  background-color: #f6c;
+  }
+  
+  .country_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #1cbd29;
+    padding: 0 1.6rem;
+  }
+  
+  .card_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    position: relative;
+  }
+  
+  .arrow_link {
+    width: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1rem;
+  }
+  
+  .country_arrow_link img {
+    width: 100%;
+  }
+  
+  .country_text {
+    color: #fff;
+    text-align: end;
+  }
+  
+  .country_text p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
+  
+  .mapgrid_image {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .mapgrid_image img {
+    width: 100%;
+  }
+  
+  .outline-line {
+    border-left: 2px solid #7a668d;
+  }
+  
+  .country_text_zero {
+    grid-column: 1 / -1;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+  }
+  
+  .card_link {
+    text-decoration: none;
+  }
+  

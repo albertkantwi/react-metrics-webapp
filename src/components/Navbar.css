@@ -1,0 +1,51 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #8a2be2;
+    padding: 1.5rem 1.5rem;
+  }
+  
+  .logo_text {
+    width: 3.5rem;
+  }
+  
+  .logo_text img {
+    width: 100%;
+  }
+  
+  .navtext_center {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .logo_box .display_block {
+    display: inline-flex;
+  }
+  
+  .logo_arrow {
+    width: 1.5rem;
+  }
+  
+  .logo_box .display_none {
+    display: none;
+  }
+  
+  .navbox {
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbox button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .navbox button img {
+    width: 100%;
+  }
+  

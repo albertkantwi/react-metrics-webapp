@@ -1,14 +1,16 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Country from './pages/Countries';
-import './index.css';
+import Home from './components/Home';
+import CountryDetail from './components/Country';
+import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/country/:id" element={<Country />} />
+        <Route path="/countrydetail/:name" element={<CountryDetail />} />
+
       </Routes>
     </BrowserRouter>
   );

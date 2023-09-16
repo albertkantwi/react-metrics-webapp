@@ -1,163 +1,27 @@
-*,
-*::before,
-a::after {
-  padding: 0;
+body {
   margin: 0;
-  box-sizing: border-box;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-  background-color: rgb(244, 9, 213);
-}
-
-.header {
-  width: 90%;
-  display: flex;
-  font-size: 3rem;
-  margin: auto;
-  justify-content: center;
-  text-decoration: underline;
-  padding: 10px;
-}
-
-.countriesContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  margin: 2rem auto;
-  gap: 1.5rem;
-}
-
-.countryContainer {
-  display: flex;
-  flex-direction: column;
-  border-radius: 1rem;
-  gap: 0.5rem;
-  background-color: #fff;
-}
-
-.flag {
-  width: 100%;
-  height: 250px;
-  padding: 0;
-  margin: 0;
-}
-
-.commonName,
-.capitalName,
-.population,
-.link {
-  font-size: 1.2rem;
-  font-weight: 300;
-  padding: 0.5rem;
-}
-
-.link {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-  color: red;
-}
-
-.countryDetailsContainer {
-  margin: 1rem auto;
-  background-color: deeppink;
-  width: 100%;
-  overflow-x: auto;
-  padding: 0 10px;
-}
-
-.tableHead {
-  font-size: 2rem;
-}
-
-.countryDetailsTable {
-  width: 100%;
-}
-
-.label {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.value {
-  font-size: 1.5rem;
-  text-align: center;
-  border: 1px solid rgb(187, 149, 157);
-  text-transform: capitalize;
-}
-
-.tableBody tr:nth-child(odd) {
-  background-color: rgb(240, 142, 227);
-}
-
-.tableBody tr:nth-child(even) {
-  background-color: rgb(244, 9, 213);
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: cyan;
-  color: #000;
-  padding: 1rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-img {
-  margin: 0.5rem;
-  cursor: pointer;
-}
-
-.searchBarContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  background-image: url(https://plus.unsplash.com/premium_photo-1663088923485-58685ba14d5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.searchbar {
-  font-size: 1rem;
-  font-weight: bold;
-  outline: none;
-  width: 40%;
-  padding: 1rem;
-  border: none;
-  border-radius: 10px;
-}
-
-@media only screen and (min-width: 992px) {
-  .countriesContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .label {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 40px 5px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .countriesContainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
 }
